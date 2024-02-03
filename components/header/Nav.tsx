@@ -11,7 +11,7 @@ export default function Nav() {
   return (
     <motion.nav initial={false} animate={open ? 'open' : 'closed'}>
       <MenuToggle toggle={() => setOpen(!open)} />
-      <ul className={`${open ? 'flex flex-col' : 'hidden'} d-flex gap-5  `}>
+      <ul className={`hidden d-flex gap-5  `}>
         <li>
           <Link href="/">Home</Link>
         </li>
