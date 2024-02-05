@@ -8,7 +8,7 @@ import { FaSearch } from '@react-icons/all-files/fa/FaSearch'
 
 export default function Header() {
   return (
-    <header>
+    <header className="py-6 fixed top-0">
       <div className="d-flex">
         <div>
           <Link href={'/'}>
@@ -25,8 +25,8 @@ export default function Header() {
           <div>
             <FaSearch className="h-[16px] w-[16px] text-primary-color" />
           </div>
-          <ImCart className="h-[28px] w-[32px] text-primary-color" />
-          <IoPeopleSharp className="h-[28px] w-[32px] text-primary-color" />
+          <ImCart className="icon_style" />
+          <IoPeopleSharp className="icon_style" />
         </div>
       </div>
     </header>

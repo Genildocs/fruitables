@@ -20,4 +20,15 @@
   .d-flex {
     @apply flex justify-between items-center;
   }
+
+  .icon_style {
+    @apply h-[28px] w-[32px] text-primary-color;
+  }
+
+  header {
+    width: inherit;
+    max-width: inherit;
+    margin-left: -1rem;
+    padding: 0 1rem;
+  }
 }

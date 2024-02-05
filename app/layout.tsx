@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className={`${openSans.variable} ${raleway.variable}`}>
-      <body className='container mx-auto min-h-screen px-4 font-openSans'>
+      <body className="container mx-auto min-h-screen px-4 pt-24 font-openSans">
         <Header />
         {children}
       </body>

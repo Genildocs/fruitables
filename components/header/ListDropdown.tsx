@@ -19,7 +19,7 @@ export default function ListDropdown() {
   return (
     <Flowbite theme={{ theme: customTheme }}>
       <Dropdown
-        label="pages"
+        label="Pages"
         dismissOnClick={false}
         color="primary "
         size={'sm'}
